@@ -8,7 +8,7 @@ class Helper
 		$payload = json_encode($data);
 		 
 		// Prepare new cURL resource
-		$ch = curl_init('http://195.158.28.125:9099/api/payment/');
+		$ch = curl_init('http://195.158.28.125:9099/api/payment/PaymentsWithOutRegistration');
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($ch, CURLINFO_HEADER_OUT, true);
 		curl_setopt($ch, CURLOPT_POST, true);

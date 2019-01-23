@@ -1,0 +1,40 @@
+<form data-request="{{__SELF__}}::onGetPaymentCode"
+    data-request-update="'{{__SELF__}}::confirm': '#tabs-icons-text-3'"
+    data-request-flash role="form">
+
+    <input type="hidden" name="owner_id" value="{{user.id}}">
+
+    <div class="row">
+        <div class="col-6">
+            <div class="form-group">
+                <label> {{"Uzcard timidagi telefon raqamingiz"|_}} </label>
+                <input class="form-control" name="phone" placeholder="+998xxxxxxxx" type="text">
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="form-group">
+                <label> {{"Kartangiz oxirgi 6 raqani"|_}} </label>
+                <input class="form-control" name="card" placeholder="123456" type="number">
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="form-group">
+                <label> {{"Kartangiz muddati"|_}} </label>
+                <input class="form-control" name="expire" placeholder="22:07" type="text">
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="form-group">
+                <label> {{"Tolov miqdori"|_}} </label>
+                <input class="form-control" name="amount" placeholder="1000" type="number">
+            </div>
+        </div>
+
+        <div class="col-6">
+            <button type="submit" data-attach-loading class="btn btn-primary my-2"> {{"Ma'lumotlarni kiritish"|_}} </button>
+        </div>
+    </div>
+</form>

@@ -5,8 +5,12 @@ use System\Classes\PluginBase;
 
 class Plugin extends PluginBase
 {
+
     public function registerComponents()
     {
+        return [
+            \Shohabbos\Uzcard\Components\PayForm::class => 'uzcardPayForm',
+        ];
     }
 
     public function registerSettings()
