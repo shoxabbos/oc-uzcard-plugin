@@ -1,6 +1,7 @@
 <?php namespace Shohabbos\Uzcard\Components;
 
 use Input;
+use Event;
 use Validator;
 use ValidationException;
 use Cms\Classes\ComponentBase;
@@ -78,7 +79,10 @@ class PayForm extends ComponentBase
         $transaction->trans_id = $result['result']['transacID'];
         $transaction->save();
 
-        \Flash::success("To'lov amalga oshirildi.");
+        $message = "To'lov amalga oshirildi.";
+        Event::fire('shohabbos.uzcard.successPayment', [$transaction, &$message]);
+
+        \Flash::success($message);
     }
 
 

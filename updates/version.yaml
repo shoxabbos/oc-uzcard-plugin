@@ -3,3 +3,18 @@
 1.0.2:
     - 'Created table shohabbos_uzcard_transactions'
     - builder_table_create_shohabbos_uzcard_transactions.php
+1.0.3:
+    - 'Updated table shohabbos_uzcard_transactions'
+    - builder_table_update_shohabbos_uzcard_transactions.php
+1.0.4:
+    - 'Updated table shohabbos_uzcard_transactions'
+    - builder_table_update_shohabbos_uzcard_transactions_2.php
+1.0.5:
+    - 'Updated table shohabbos_uzcard_transactions'
+    - builder_table_update_shohabbos_uzcard_transactions_3.php
+1.0.6:
+    - 'Updated table shohabbos_uzcard_transactions'
+    - builder_table_update_shohabbos_uzcard_transactions_4.php
+1.0.7:
+    - 'Updated table shohabbos_uzcard_transactions'
+    - builder_table_update_shohabbos_uzcard_transactions_5.php
