@@ -1,0 +1,44 @@
+columns:
+    id:
+        label: id
+        type: number
+    phone:
+        label: phone
+        type: text
+    card:
+        label: card
+        type: text
+        invisible: true
+    expire:
+        label: expire
+        type: number
+        invisible: true
+    summa:
+        label: summa
+        type: number
+    uniques:
+        label: uniques
+        type: text
+        invisible: true
+    trans_id:
+        label: trans_id
+        type: text
+        invisible: false
+    success:
+        label: success
+        type: text
+        invisible: false
+    message:
+        label: message
+        type: text
+        invisible: true
+    owner_id:
+        label: owner_id
+        type: number
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+        invisible: true
