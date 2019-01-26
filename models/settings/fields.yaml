@@ -5,18 +5,18 @@ tabs:
             span: auto
             required: 1
             type: text
-            tab: 'shohabbos.payme::lang.settings.tab_keys'
+            tab: 'shohabbos.uzcard::lang.settings.tab_keys'
         key:
             label: KEY
             span: auto
             required: 1
             type: text
-            tab: 'shohabbos.payme::lang.settings.tab_keys'
+            tab: 'shohabbos.uzcard::lang.settings.tab_keys'
         code:
-            label: 'shohabbos.payme::lang.settings.code'
+            label: 'shohabbos.uzcard::lang.settings.code'
             size: giant
             language: php
             span: full
             type: codeeditor
-            comment: 'shohabbos.payme::lang.settings.code_desc'
-            tab: 'shohabbos.payme::lang.settings.tab_code'
+            comment: 'shohabbos.uzcard::lang.settings.code_desc'
+            tab: 'shohabbos.uzcard::lang.settings.tab_code'
