@@ -5,28 +5,28 @@
     <input type="hidden" name="transaction" value="{{transaction.id}}">
 
     <div class="row">
-        <div class="col-6">
+        <div class="col-md-6">
             <div class="form-group">
                 <label> {{"Uzcard timidagi telefon raqamingiz"|_}} </label>
                 <input class="form-control" name="phone" placeholder="{{transaction.phone}}" disabled type="text">
             </div>
         </div>
 
-        <div class="col-6">
+        <div class="col-md-6">
             <div class="form-group">
-                <label> {{"Kartangiz oxirgi 6 raqani"|_}} </label>
+                <label> {{"Kartangiz oxirgi 6 raqami"|_}} </label>
                 <input class="form-control" name="card" placeholder="{{transaction.card}}" disabled type="number">
             </div>
         </div>
 
-        <div class="col-6">
+        <div class="col-md-6">
             <div class="form-group">
                 <label> {{"Kartangiz muddati"|_}} </label>
                 <input class="form-control" name="expire" placeholder="{{transaction.expire}}" disabled type="text">
             </div>
         </div>
 
-        <div class="col-6">
+        <div class="col-md-6">
             <div class="form-group">
                 <label> {{"Tolov miqdori"|_}} </label>
                 <input class="form-control" name="amount" placeholder="{{transaction.amount}}" disabled type="number">
@@ -40,7 +40,7 @@
             </div>
         </div>
 
-        <div class="col-6">
+        <div class="col-md-6">
             <button type="submit" data-attach-loading class="btn btn-primary my-2"> {{"To'lovni tasdiqlash"|_}} </button>
         </div>
     </div>

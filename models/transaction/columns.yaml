@@ -13,8 +13,8 @@ columns:
         label: expire
         type: number
         invisible: true
-    summa:
-        label: summa
+    amount:
+        label: amount
         type: number
     uniques:
         label: uniques

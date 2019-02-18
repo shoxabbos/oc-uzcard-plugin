@@ -12,6 +12,7 @@ class Plugin extends PluginBase
             \Shohabbos\Uzcard\Components\PayForm::class => 'uzcardPayForm',
         ];
     }
+    
 
     public function registerSettings()
     {
