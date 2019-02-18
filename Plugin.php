@@ -12,7 +12,16 @@ class Plugin extends PluginBase
             \Shohabbos\Uzcard\Components\PayForm::class => 'uzcardPayForm',
         ];
     }
-    
+
+    public function registerReportWidgets()
+    {
+        return [
+            'Shohabbos\Uzcard\ReportWidgets\Payment' => [
+                'label' => 'Transactions of uzcard',
+                'context' => 'dashboard'
+            ],
+        ];
+    }
 
     public function registerSettings()
     {
