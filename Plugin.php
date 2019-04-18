@@ -34,6 +34,7 @@ class Plugin extends PluginBase
                 'class'       => 'Shohabbos\Uzcard\Models\Settings',
                 'order'       => 1,
                 'keywords'    => 'uzcard woywoo',
+                'permissions' => ['manage_uzcard_settings']
             ],
             'transactions' => [
                 'category'    => 'UZCARD',
@@ -42,7 +43,7 @@ class Plugin extends PluginBase
                 'icon'        => 'icon-list-alt',
                 'url'         => Backend::url('shohabbos/uzcard/transactions'),
                 'order'       => 2,
-                'permissions' => ['shohabbos.uzcard.manage_transactions']
+                'permissions' => ['manage_uzcard_transactions']
             ],
         ];
     }

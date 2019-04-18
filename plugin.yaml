@@ -5,6 +5,9 @@ plugin:
     icon: oc-icon-puzzle-piece
     homepage: 'https://itmaker.uz'
 permissions:
-    manage_transactions:
+    manage_uzcard_transactions:
         tab: 'shohabbos.uzcard::lang.plugin.name'
         label: 'Manage transactions'
+    manage_uzcard_settings:
+        tab: 'shohabbos.uzcard::lang.plugin.name'
+        label: 'Manage settings'
